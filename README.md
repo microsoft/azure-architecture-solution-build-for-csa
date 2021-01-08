@@ -1,18 +1,18 @@
-# Project
+# Technical Engagement Quickstart
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This project is designed to give structured help when designing solutions on Azure with partners.
 
-As the maintainer of this project, please make a few updates:
+It should be used as a reference by solution architects when engaging on a new project to accelerate and improve the quality of the engagement by applying a proven set of practices.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+This project started as a collection of knowledge from Cloud Solution Architects at Microsoft UK who specialise in building technical solutions with partners, but has now organically grown into an open and collaborative repository of knowledge.
+
+We are always looking to learn, grow and improve so contributions are very welcome. If you find a better way of working or a missing question that's not asked then please submit a change to this repository, no matter how small you believe it may be, it will be valued.
+
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+
+As stated above, we really are looking for others to also contribute their time and knowledge to help improve the overall ecosystem and there are some guidelines you must agree to.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
