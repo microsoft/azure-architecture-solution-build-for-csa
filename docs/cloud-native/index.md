@@ -1,1 +1,3 @@
+This living document represents a set of key questions and guidance to help Architects at all career stages when first engaging with a partner to deliver excellence in their activities. This will help repeat the success we found with partners and accelerate new engagements. 
 
+ With such a large Azure eco system and diverse range of products it is sometimes hard to know what the decision points are and the questions that should be asked to get to the core of the architecture. This document will enable others to take the condensed expertise of many experienced architects and apply this to new engagements and activities. 
