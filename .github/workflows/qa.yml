@@ -1,0 +1,19 @@
+name: Quality Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Check spelling
+        uses: check-spelling/check-spelling@0.0.17-alpha
+        
