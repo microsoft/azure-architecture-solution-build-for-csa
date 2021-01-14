@@ -21,7 +21,7 @@ At a high level:
     * Visualization (How easy it is to visualize)
     * Value (How much value does it give the business)
 
-This article provides a good overview of each data store model, so be sure you fully understand each store and are able to discuss its applicability and relevance, looking at this [data store overview](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview)
+This article provides a good overview of each data store model, so be sure you fully understand each store and are able to discuss its applicability and relevance, looking at this [data store overview](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)
 
 For example, the recent release of **Azure Synapse Analytics** allows large volumes of data to be stored at very low prices in Azure Data Lake and but to run SQL queries over that data, giving systems the best of both worlds (low cost and easy access). This can change not only the way partners approach data storage, but also the underlying cost model, and in the bigger picture provides the ability to have new and innovative pipelines that take data through the various stages with each service being optimised to perform a specific set of tasks.
 
@@ -29,7 +29,7 @@ For example, the recent release of **Azure Synapse Analytics** allows large volu
 
 **This multi-tier model is a good system design**. Different tiers serve different purposes and each builds on the previous. The idea is to land the raw data in one part of the system and keep hold of it, in case it needs to be revisited at future date. This can then be processed into a format better suited for the internal elements of a system. Finally, the data may need to be visualised and formatted for user interactions and queries. It's worth pulling this out as a pattern because often there's a temptation to skip the three stages and merge them together into just one or two, a decision which can come back and bite at a future date. For example imagine a customer collecting lots of raw telemetry data and then the idea comes to build a machine learning model, so they need to access potentially years worth of raw data to help build a new model - If we don't separate out and retain the data there's a strong chance it wont be available for processing and model building.
 
-On the face of it technologies such as **Databricks** ([Azure Databricks documentation](https://docs.microsoft.com/en-us/azure/databricks/)) and **Azure Synapse** ([Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/)) look like they perform similar functions that can lead a partner to either get confused or choose an option that is not the best fit, so make sure you have a good high level model in your mind of these technologies and understand what they and where they apply.
+On the face of it technologies such as **Databricks** ([Azure Databricks documentation](https://docs.microsoft.com/azure/databricks/)) and **Azure Synapse** ([Azure Synapse Analytics](https://azure.microsoft.com/services/synapse-analytics/)) look like they perform similar functions that can lead a partner to either get confused or choose an option that is not the best fit, so make sure you have a good high level model in your mind of these technologies and understand what they and where they apply.
 
 Questions need to be asked to understand the partners skills sets, key business drivers and data requirements to properly ascertain the correct tools for their architecture as a lot of the subtleties will be lost to them at the early stage of an architecture.
 
@@ -37,6 +37,6 @@ Another thing to consider when thinking about data storage is any requirement to
 
 1. Build an API – this has the benefit of being generic in how data is accessed, but has a trade-off of long development times or performance if used for reporting
 1. Grant access to underlying data store – this requires no additional development, but can have security challenges or not be possible in a non-public database implementation
-1. [Azure Data Share](https://docs.microsoft.com/en-us/azure/data-share/overview) – this offers the ability to have incremental or full snapshots of data, from a number of data sources to a number of different target technologies.
-1. [Azure Synapse Analytics (Data Exfiltration)](https://docs.microsoft.com/en-us/azure/synapse-analytics/security/workspace-data-exfiltration-protection) – this allows a controlled sharing with a specific Active Directory tenant
+1. [Azure Data Share](https://docs.microsoft.com/azure/data-share/overview) – this offers the ability to have incremental or full snapshots of data, from a number of data sources to a number of different target technologies.
+1. [Azure Synapse Analytics (Data Exfiltration)](https://docs.microsoft.com/azure/synapse-analytics/security/workspace-data-exfiltration-protection) – this allows a controlled sharing with a specific Active Directory tenant
 1. Azure Data Factory – data can be pushed to a store for the customer, this could be a database, FTP, or any available sink

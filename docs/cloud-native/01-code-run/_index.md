@@ -44,10 +44,10 @@ In more complex microservice style systems, Azure Functions often end up acting 
 
 ![Serverless Web Application Example showing a Single-page Web App](04-serverless-web-app.png)
 
-[Source](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/serverless/web-app)
+[Source](https://docs.microsoft.com/azure/architecture/reference-architectures/serverless/web-app)
 
 It's very easy to get excited about the elastic scale that Azure Functions offer to handle variable load, but it's important to understand scale control and the ability to limit that scale because, if a function scales too much it can create problems further downstream for other parts of the system and their ability to cope.
 
 ![Scaling Azure Functions using Scale Controller](05-scaling-azure-functions.png)
 
-[Source](https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale)
+[Source](https://docs.microsoft.com/azure/azure-functions/functions-scale)

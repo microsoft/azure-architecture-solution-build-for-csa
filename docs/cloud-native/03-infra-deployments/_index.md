@@ -6,8 +6,8 @@ Automation of deployment is absolutely key for speed consistency and quality. Co
 
 * [Deploy and manage resources in Azure by using ARM templates](https://docs.microsoft.com/learn/paths/deploy-manage-resource-manager-templates/)
 * [Get Started with Terraform on Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started)
-* [Control Azure services with the CLI](https://docs.microsoft.com/en-us/learn/modules/control-azure-services-with-cli/)
-* [Get started with Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/get-started-azureps?view=azps-5.2.0)
+* [Control Azure services with the CLI](https://docs.microsoft.com/learn/modules/control-azure-services-with-cli/)
+* [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps?view=azps-5.2.0)
 * [Azure Citadel](https://azurecitadel.com/)
 
 Ask the right questions to help to reduce down the options. For example, **should the solution be Marketplace deployable?** If so then that is a natural constraint and ARM templating provides the greatest integration. Or it may be that they already have existing skills and a desire to use open source and multi cloud vendor tooling which pushes towards other common patterns such as a mix of Terraform, Helm, Packer and Ansible.

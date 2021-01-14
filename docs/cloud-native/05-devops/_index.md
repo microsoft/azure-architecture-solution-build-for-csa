@@ -6,7 +6,7 @@ One of the easiest ways to assess the maturity of a partner is to inquire about 
 
 One of the most inspirational books that helps set the tone and importance of the whole DevOps and its role in busines is [**The Phoenix Project**](https://www.e4developer.com/2018/03/24/the-phoenix-project-a-key-to-understanding-devops/) - and well worth both reading yourself if you're new to this area and to recommend to customers if they don't see the value!
 
-If you want to get a quick understanding of where a partner is in terms of DevOps capability you can use the [**DevOps Checklist**](https://docs.microsoft.com/en-us/azure/architecture/checklist/dev-ops) to get a quick sense and you can see that it already covers far more than just having a pipeline set up for code delivery, ranging from team and organisational structure through to validating features with customer usage.
+If you want to get a quick understanding of where a partner is in terms of DevOps capability you can use the [**DevOps Checklist**](https://docs.microsoft.com/azure/architecture/checklist/dev-ops) to get a quick sense and you can see that it already covers far more than just having a pipeline set up for code delivery, ranging from team and organisational structure through to validating features with customer usage.
 
 There’s a tension with many partners where they assume that Continuous Delivery means taking changes from a developer and immediately deploying to a customer environment. This generally leads to conversations around compliance, governance and security which can slow down and block the adoption of continuous delivery techniques. It is therefore beneficial to instead focus on the ability to take control of your deployments.
 

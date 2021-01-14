@@ -26,7 +26,7 @@ It provides performance charts that show key performance metrics of a cluster, t
 
 When the question comes up around what exactly should be measured, a sensible set of defaults is usually provided, however you can’t go wrong by recommending the **Four Golden Signals (latency, traffic, errors and saturation)** as a baseline. These will give a good indication of the end-user customer experience and any degradation.
 
-The [Site Reliability Engineering learning path](https://docs.microsoft.com/en-us/learn/modules/intro-to-site-reliability-engineering/) is a great place to start to read more.
+The [Site Reliability Engineering learning path](https://docs.microsoft.com/learn/modules/intro-to-site-reliability-engineering/) is a great place to start to read more.
 
 ![Four golden signals of monitoring](05-four-golden-signals.png)
 
