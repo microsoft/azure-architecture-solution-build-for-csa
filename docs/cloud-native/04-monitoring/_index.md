@@ -30,7 +30,7 @@ The [Site Reliability Engineering learning path](https://docs.microsoft.com/lear
 
 ![Four golden signals of monitoring](05-four-golden-signals.png)
 
-To find more detailed information on the Four Golden Signals, originally popularised in the SRE book from Google, visit [https://laredoute.io/blog/how-the-4-golden-signals-support-your-business-observability/]
+To find more detailed information on the Four Golden Signals, originally popularised in the SRE book from Google, visit https://laredoute.io/blog/how-the-4-golden-signals-support-your-business-observability/
 
 Instrumentation is also key to **managing cost**, so **always ask if they have they costed their system**? This might seem a slightly unusual question to ask, but in many cases designers haven't done a full cost analysis to work out how much a system will cost to run either on a per user or per customer basis, and this work is essential to ensure that their pricing gives them the sufficient margins to run the system successfully. Sometimes the costing exercise can be relatively simple but often it's harder because users have a different mix of scenarios that they work through and so it tends to require they think about different journeys different types of operations and the mix of work that happen and then try to cost from there. If they have an existing on-premise system, there probably in a much better situation and can get historic data to help them make those calculations. But doing costing without data is really, really difficult.
 

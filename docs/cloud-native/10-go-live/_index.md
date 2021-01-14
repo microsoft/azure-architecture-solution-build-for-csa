@@ -5,7 +5,7 @@ Key question to ask before the partner takes the final plunge and fully commits 
 * Is there a Microsoft support contract in place that meets their needs, and equally importantly, do the key stakeholders know how to raise a ticket?
     * If something goes wrong and there is no one to help it can destroy customers trust in the partner and create frustration with Microsoft 
     * Ensure the team know what the support contract covers and how to raise and track an issue
-    * [Azure Support Plans Comparison](https://azure.microsoft.com/en-gb/support/plans/)
+    * [Azure Support Plans Comparison](https://azure.microsoft.com/support/plans/)
 * Have they run a beta programme or worked closely with early adopters to ensure the system works well
     * Always get feedback, always test, always go through a beta process to validate both the application and its deployment
 * Has everything been tested?
