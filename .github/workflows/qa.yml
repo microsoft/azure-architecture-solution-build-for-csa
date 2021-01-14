@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
+  spelling-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,4 +16,13 @@ jobs:
       
       - name: Check spelling
         uses: check-spelling/check-spelling@0.0.17-alpha
-        
+
+  # Second Job
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Check links for 200 OK
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
