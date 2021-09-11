@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Check spelling
-        uses: check-spelling/check-spelling@0.0.19
+        uses: check-spelling/check-spelling@v0.0.19
 
   # Second Job
   markdown-link-check:
